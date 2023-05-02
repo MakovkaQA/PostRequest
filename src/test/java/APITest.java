@@ -16,7 +16,7 @@ public class APITest {
 
                 .then()
                 .statusCode(200)
-                .body(containsString("Hello"))
+                .body(containsString("Testing API"))
         ;
     }
 
